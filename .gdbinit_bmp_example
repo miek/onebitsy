@@ -1,0 +1,5 @@
+target extended-remote /dev/ttyACM0
+mon connect_srst enable
+mon jtag_scan
+attach 1
+load

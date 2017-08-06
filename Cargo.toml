@@ -1,0 +1,27 @@
+[package]
+name = "onebitsy"
+version = "0.1.0"
+authors = ["Mike Walters <mike@flomp.net>"]
+description = "Board support crate for the 1Bitsy"
+keywords = ["arm", "cortex-m", "stm32"]
+categories = ["embedded", "no-std"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/miek/onebitsy-rust"
+
+[profile.release]
+lto = true
+debug = true
+
+[dependencies.stm32f41x]
+features = ["rt"]
+version = "0.1.1"
+
+[dev-dependencies]
+cortex-m = "0.3.0"
+cortex-m-rtfm = "0.2.0"
+cortex-m-semihosting = "0.2.0"
+
+[dev-dependencies.cortex-m-rt]
+version = "0.3.3"
+features = ["abort-on-panic"]
+
