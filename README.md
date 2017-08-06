@@ -1,10 +1,12 @@
-# `cortex-m-quickstart`
+# `onebitsy`
 
-> A template for building applications for ARM Cortex-M microcontrollers
+> Board support crate for the [1Bitsy]
 
-# [Documentation](https://docs.rs/cortex-m-quickstart)
+[1Bitsy]: https://1bitsy.org
 
-# License
+## [Documentation](https://docs.rs/cortex-m-quickstart)
+
+## License
 
 Licensed under either of
 
@@ -15,7 +17,7 @@ Licensed under either of
 
 at your option.
 
-## Contribution
+### Contribution
 
 Unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
